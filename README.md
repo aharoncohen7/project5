@@ -28,11 +28,14 @@ Installation
 
 הוראות התקנה:
 כדי שהאתר יעבוד כראוי ש צורך להריץ את הקובץ db.json על פורט 3100 באמצעות הפקודה הבאה:
+
 json-server --watch db.json --port 3100
 
 כמו"כ יש צורך להתקין את 2 הספריות:
+
 react-router-dom,  sweetalert2
 
 באמצעות הפקודות:
+
 npm install react-router-dom
 npm install sweetalert2

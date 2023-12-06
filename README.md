@@ -38,4 +38,5 @@ react-router-dom,  sweetalert2
 באמצעות הפקודות:
 
 npm install react-router-dom
+
 npm install sweetalert2

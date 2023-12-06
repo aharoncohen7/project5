@@ -1,0 +1,137 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+/* תגיות */
+
+body {
+    min-width: 750px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("./background.jpg");    
+}
+
+h1 {
+    
+    line-height: 80px;
+    font-size: 50px;
+    margin: 0px;
+    color: #f26839;
+    font-weight: bold;
+}
+
+h2{
+    background: linear-gradient(to left, #24dbe8, #f3f3f3);
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+
+button.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.login {
+    margin: 300px;
+    background-color: rgb(11, 207, 221);
+    height: 300px;
+}
+
+
+.home {
+    height: 120px;
+    background: linear-gradient(to left, #24dbe8, #e49696);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-size: 40px;
+
+
+}
+
+
+
+
+.home div {
+    
+    height: 55px;
+    margin: 20px;
+    border: solid 3px rgba(11, 215, 230, 0.438);
+    background-color: rgba(163, 209, 212, 0.781);
+    text-align: center;
+}
+
+.home div:hover {
+    cursor: pointer;
+    background-color: rgba(39, 210, 223, 0.781);
+}
+
+
+/* הגדרות כלליות */
+.moduel_compo {
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    background-color: rgb(42, 172, 223);
+    margin: 10px;
+    border-radius: 5%;
+    box-shadow: 0 0 10px 5px rgba(2, 46, 142, 0.459);
+    min-height: 300px;
+
+    &:active {
+        box-shadow: 0 0 10px 9px rgba(253, 0, 0, 0.068);
+    }
+}
+
+/* הגדרות פרטניות לפי סוג מארח */
+.posts .moduel_compo {
+    width: 1000px;
+    min-height: 120px;
+    background-color: rgb(216, 136, 152);
+    height: auto;
+    font-size: 30px;
+}
+
+
+.album {
+    width: "200px";
+    height: "200px";
+    background-color: rgb(216, 136, 152);
+    display: "inline-block";
+    margin: "10px";
+
+}
+
+.expanded {
+    min-height: 150px;
+
+}
+
+.filters {
+    height: 260px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to left, #24dbe8, #e49696);
+}
+
+
+input {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0px;
+
+}
+
+#logo {
+    background-image: url("./logo.jpg");
+    background-color: blue;
+    
+
+}
